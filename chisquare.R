@@ -32,7 +32,7 @@ dat2 <- rbind(normal, peanut,white)
 dat2 <- data.frame(dat2)
 colnames(dat2) <- cat
 
-chisq.test(dat2) ## Not working, maybe each cateory is list. Think of each category as vector
+chisq.test(dat2) ## Not working, maybe each cateory is list. Think of each category as a vector
 
 orange <- c(20,60, 100)
 blue <- c(30,70,110)
