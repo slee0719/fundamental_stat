@@ -1,5 +1,5 @@
-## Unpaired t test
-t_pair <- function(n1,m1,sd1,n2,m2,sd2,tail){
+## Unpaired t test (only with sample size, mean, and standard error)
+t_unpair <- function(n1,m1,sd1,n2,m2,sd2,tail){
   
   sp2 <- ((n1-1)*sd1^2 + (n2-1)*sd2^2)/((n1-1)+(n2-1))
   se <- sqrt(sp2/n1 + sp2/n2)
